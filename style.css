@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pangolin&family=Poppins:wght@100;200;400;500;700;800&family=Syne+Mono&family=Walter+Turncoat&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+body{
+    background-color: #f1f0f0;
+}
+
+.all-sec{
+    background-color: wheat;
+    padding-bottom: 50px;
+}
+
+.header{
+    
+    width: 100%;
+    margin: auto;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navlist{
+    display: flex;
+    
+}
+.navlist a{
+    padding: 0 15px;
+    color: #000;
+}
+
+.logo{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+
+.btn{
+    background-color: yellow;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px #000;
+}
+
+.all-main{
+    width: 100%;
+    
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.nft-img{
+    width: 600px;
+    height: auto;
+}
+
+.text h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.text b{
+    font-weight: 600;
+}
+
+.main-btn{
+    background-color: yellow;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 7px 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px #000;
+}
+
+.all-section{
+    width: 100%;
+    padding: 100px 0;
+    background-color: antiquewhite;
+    
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.tittle {
+    display: flex;
+    gap: 50px;
+}
+
+.tittle img{
+    width: 80px;
+    height: 80px;
+}
+
+.tittle h3{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.card{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cards {
+    width: 250px;
+    height: 350px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0px 0px #000;
+    border-radius: 20px;
+   }
+   
+   .card-img {
+    background-color: #ffcaa6;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px;
+    transition: .3s ease;
+   }
+
+   .details{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px;
+    
+   }
+
+   .details h3{
+    font-size: 15px;
+    padding: 10px 0;
+   }
+
+   .details h4{
+    font-size: 10px;
+    font-weight: 400;
+   }
+
+   .details p{
+    font-size: 12px;
+    font-weight: 600;
+   }
+
+   .details .p1{
+    font-weight: 400;
+    font-size: 10px;
+   }
+   
+
+
+
+   .sell{
+    width: 100%;
+    
+    background-color: wheat;
+    padding: 50px 0;
+   }
+
+   .create{
+    width: 80%;
+    margin: auto;
+   }
+
+   .sell-tittle{
+    display: flex;
+    
+    gap: 50px;
+   }
+
+   .sell-tittle h4{
+    font-size: 40px;
+    font-weight: 500;
+    
+    text-align: center;
+   }
+
+   .sell-tittle img{
+    width: 80px;
+    height: 80px;
+   }
+
+   .sell-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    
+   }
+
+
+
+   .details1 p{
+    font-size: 13px;
+   }
+   
+   .details1 h3{
+    font-size: 18px;
+    padding: 10px 0;
+   }
+
+   .details1{
+    padding-left: 10px;
+   }
+
+   .sell-btn{
+    background-color: yellow;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 7px 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px #000;
+   }
+
+
+
+
+   .join{
+    width: 100%;
+    padding-top: 100px;
+    background-color: antiquewhite;
+    padding: 100px 0;
+    
+   }
+
+   .community{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .comm-img img{
+    width: 500px;
+   }
+
+   .comm-text h3{
+    font-size: 50px;
+    padding-bottom: 20px;
+   }
+
+   .comm-text p{
+    font-size: 17px;
+    padding-bottom: 20px;
+   }
+
+   .comm-button{
+    padding-top: 15px;
+   }
+
+   .comm-btn{
+    background-color: yellow;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 7px 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 0px #000;
+   }
+
+   .comm-text h3 img{
+    width: 80px;
+    height: 80px;
+   }
+
+
+/* This is a single-line comment */
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 0px;
+  background: rgb(0, 0, 15);
+  
+}
+
+.social p {
+  color: aliceblue;
+}
+.final_text p {
+    color: #fff;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: aliceblue;
+  color: rgb(0, 0, 15);
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: aliceblue;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: aliceblue;
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #0077b5;
+  color: aliceblue;
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #4267b2;
+  color: aliceblue;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: aliceblue;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: aliceblue;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media (max-width: 1147px){
+
+    .text h1{
+        font-size: 40px;
+    }
+    .nft-img{
+        width: 400px;
+        height: auto;
+    }
+   }
+
+
+   @media (max-width: 920px){
+
+    .text h1{
+        font-size: 35px;
+    }
+
+   }
+
+   @media (max-width:865px) {
+
+    .text h1{
+        font-size: 30px;
+    }
+    .nft-img{
+        width: 350px;
+    }
+    .main-btn{
+        font-size: 14px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .navlist a{
+         font-size: 13px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    
+    .comm-img img{
+        width: 300px;
+    }
+    .comm-text h3{
+        font-size: 30px;
+    }
+    .comm-text h3 img{
+        width: 50px;
+        height: 50px;
+    }
+    .comm-text p{
+        font-size: 14px;
+    }
+    .comm-btn{
+        font-size: 15px;
+        padding: 7px 30px;
+    }
+    .card{
+        padding: 0 50px;
+    }
+    .tittle{
+        gap: 20px;
+    }
+    .tittle img{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .sell-tittle img{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .sell-tittle{
+        gap: 20px;
+    }
+
+    .cards{
+        width: 230px;
+        height: 350px;
+    }
+   }
